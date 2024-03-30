@@ -1,0 +1,313 @@
+.banner h1{
+
+  font-family: "Major Mono Display", monospace;
+  
+  font-weight: 800;
+  font-style: normal;
+
+  font-size: 32x;
+  padding: 4%; /* some padding */
+  text-align: left; /* center the text */
+  background: #ffffff; /* green background */
+  color: rgb(0, 0, 0); /* white text color */
+
+}
+
+.header h1{
+  font-family: "Major Mono Display", monospace;
+  
+  font-weight: 800;
+  font-style: normal;
+
+  font-size: 24px;
+  padding: 3%; /* some padding */
+  text-align: left; /* center the text */
+  background: #fafafa; /* green background */
+  color: rgb(0, 0, 0); /* white text color */
+}
+
+.richtextLarge{
+  font-family: "Noto Sans Mono", monospace;
+
+  font-weight: 600;
+  font-style: normal;
+
+  font-size: 16px;
+  padding: 2%; /* some padding */
+  text-align: left; /* center the text */
+  background: #ffffff; /* green background */
+  color: rgb(0, 0, 0); /* white text color */
+
+}
+
+.richtextSmall{
+  font-family: "Noto Sans Mono", monospace;
+
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 16px;
+  padding: 2%; /* some padding */
+  text-align: left; /* center the text */
+  background: #fafafa; /* green background */
+  color: rgb(0, 0, 0); /* white text color */
+
+}
+
+.richtextLong{
+  font-family: "Cutive Mono", monospace;
+
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 16px;
+  padding: 2%; /* some padding */
+  text-align: left; /* center the text */
+  background: #ffffff; /* green background */
+  color: rgb(0, 0, 0); /* white text color */
+
+}
+
+.containerProject {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  gap: 0px;
+
+  background: #ffffff;
+
+  padding: 0px;
+
+  
+
+}
+
+.label {
+  width: 45%;
+  height:160px;
+  padding: 20px;
+
+  background-color: #FFFFFF;
+
+  
+
+}
+
+.color-strip {
+  width: 5px;
+  height: 200px;
+}
+
+.previewImage {
+  width: 55%;
+  height:160px;
+  padding:0;
+
+  background: #FFFFFF;
+}
+
+.placeholderImage{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+  .container1 {
+    width: 65%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 0px;
+
+    background: #ffffff;
+
+    padding: 5%px;
+    
+  }
+
+  .container2 {
+    width: 65%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 0px;
+
+    background: #F8F8F8;
+
+    padding: 5%;
+  }
+
+  .containerProject h1{
+    padding: 0px;
+    margin: 0px;
+    
+    text-align: left;
+   
+    color: #0f0f0f;
+
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+
+  .palette {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    font-family: "Noto Sans Mono", monospace;
+
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 8px;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 0px;
+
+    padding: 10px;
+
+  }
+
+  .color-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 0px;
+  }
+
+body{
+  margin:0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333; 
+    font-family: "Cutive Mono", monospace;
+
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 18px;
+
+    padding-left: 7%;
+    padding-right: 7%;
+
+    margin: 0%;
+  }
+  
+  
+  .navbar a {
+    float: left;
+    display: block; 
+    color: white; 
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none; 
+    background-color: #333;
+
+    transition-duration: 300ms;
+}
+
+.navbar a.right{
+  float: right;
+}
+  
+.navbar a:hover {
+  background-color: #aaa; 
+  color: black; 
+}
+
+  a.activePage{
+    background-color: #333;
+    color: #FF9B42;
+  }
+
+  .footer {
+    padding-left: 10%; /* Some padding */
+    text-align: left; /* Center text*/
+    background: #ddd; /* Grey background */
+  }
+
+  .button {
+
+    border: none;
+    color: white;
+    width:200px;
+    height:40px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    
+    margin: 1%;
+    transition-duration: 300ms;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white;
+    color: black;
+    border: 1px solid #ff9b42;
+  }
+  
+  .button1:hover {
+    background-color: #ff9b42;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white;
+    color: black;
+    border: 1px solid #0f0f0f;
+  }
+  
+  .button2:hover {
+    background-color: #0f0f0f;
+    color: #ffffff;
+  }
+
+  .button3 {
+    background-color: #dddddd;
+    color: #3d3d3d;
+    border: 1px solid #0f0f0f;
+    cursor:default;
+  }
+
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 1px solid #0081f5;
+  }
+  
+  .button4:hover {
+    background-color: #0081f5;
+    color: white;
+  }
+
+
