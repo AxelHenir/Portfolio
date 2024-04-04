@@ -14,6 +14,12 @@
 
 <body>
 
+    <script>
+        function toggleFullScreen(id) {
+            document.getElementById(id).requestFullscreen()
+            }
+    </script>
+
     <div class="banner">
 
         <h1>Graphics</h1>
@@ -30,19 +36,26 @@
         
     </div>
 
-    <img src="Selected Works/Graphics/Volition.png" style="max-height: 1000px; display: block; margin: auto; margin-top: 2%;">
-    <p class="richtextLong" style="text-align: center;" >"Volition"</p>
+    <div id="volition" onclick="document.getElementById('volition').requestFullscreen()">
+        <img src="Selected Works/Graphics/Volition.png" style="max-height: 1000px; display: block; margin: auto; margin-top: 2%;">
+        <p class="richtextLong" style="text-align: center;" >"Volition"</p>
+    </div>
 
-    
-    <img src="Selected Works/Graphics/stump.png" style="max-height: 1000px; display: block; margin: auto; margin-top: 2%;"> 
-    <p class="richtextLong" style="text-align: center;" >"The Stump"</p>
+    <div id="thestump" onclick="document.getElementById('thestump').requestFullscreen()">
+        <img src="Selected Works/Graphics/stump.png" style="max-height: 1000px; display: block; margin: auto; margin-top: 2%;"> 
+        <p class="richtextLong" style="text-align: center;" >"The Stump"</p>
+    </div>
 
-    <img src="Selected Works/Graphics/guyFavreauRef.png" style="max-height: 1000px; display: block; margin: auto; margin-top: 2%;"> 
-    <img src="Selected Works/Graphics/guyFavreauRender.png" style="max-height: 1000px; display: block; margin: auto; margin-top: 2%;"> 
-    <p class="richtextLong" style="text-align: center;" >"Guy Favreau Complex, Montreal (ref. above)"</p>
+    <div id="guy" onclick="document.getElementById('guy').requestFullscreen()">
+        <img src="Selected Works/Graphics/guyFavreauRef.png" style="max-height: 1000px; display: block; margin: auto; margin-top: 2%;"> 
+        <img src="Selected Works/Graphics/guyFavreauRender.png" style="max-height: 1000px; display: block; margin: auto; margin-top: 2%;"> 
+        <p class="richtextLong" style="text-align: center;" >"Guy Favreau Complex, Montreal (ref. above)"</p>
+    </div>
 
-    <img src="Selected Works/Graphics/discoExpress.png" style="max-height: 1000px; display: block; margin: auto; margin-top: 2%;"> 
-    <p class="richtextLong" style="text-align: center;" >"Disco Express"</p>
+    <div id="disco" onclick="document.getElementById('disco').requestFullscreen()">
+        <img src="Selected Works/Graphics/discoExpress.png" style="max-height: 1000px; display: block; margin: auto; margin-top: 2%;"> 
+        <p class="richtextLong" style="text-align: center;" >"Disco Express"</p>
+    </div>
 
     <div class="footer richtextSmall" style="background-color: #dddddd;">
         <h3>Contact</h3>
