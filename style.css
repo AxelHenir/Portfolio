@@ -12,19 +12,112 @@ body{
 
 .banner {
 
+  /* LAYOUT */
   width:60%;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  padding-left:5%;
+  padding-right:5%;
 
+  /* TEXT */
   font-family: "Major Mono Display", monospace;
-  
   font-weight: 800;
   font-style: normal;
-
   font-size: 32x;
-  padding: 5%;
-  text-align: left; /* center the text */
-  background: #ffffff; /* green background */
-  color: rgb(0, 0, 0); /* white text color */
+  
+  text-align: left;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
 
+}
+
+.c1{
+
+  /* LAYOUT */
+  width: 60%;
+  padding-left:5%;
+  padding-right:5%;
+
+  border-left: 2px solid  #e9e9e9; 
+  border-right: 2px solid  #e9e9e9;
+
+  /* COLOR */
+  background: #ffffff;
+  color: #000000; 
+
+  /* TEXT */
+
+  font-family: "Noto Sans Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-align: left; 
+   
+}
+
+.c2{
+
+  /* LAYOUT */
+  width: 60%;
+  padding-left:5%;
+  padding-right:5%;
+
+  border-left: 2px solid  #e9e9e9; 
+  border-right: 2px solid  #e9e9e9;
+
+  /* COLOR */
+  background: #F8F8F8;
+  color: #000000; 
+
+  /* TEXT */
+
+  font-family: "Noto Sans Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-align: left; 
+   
+}
+
+.project{
+
+  /* LAYOUT */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  gap: 0px;
+
+  width: 60%;
+  padding-left:5%;
+  padding-right:5%;
+
+  border-left: 2px solid  #e9e9e9; 
+  border-right: 2px solid  #e9e9e9;
+
+  /* COLOR */
+  background: #ffffff;
+  color: #000000; 
+
+  /* TEXT */
+
+  font-family: "Noto Sans Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-align: left; 
+   
+}
+
+.ul1{
+  list-style-type: none;
+}
+
+a {
+  color: #f57300;
 }
 
 .header h1{
@@ -82,117 +175,8 @@ body{
 
 }
 
-.containerProject {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
 
-  justify-content: flex-start;
-  align-items: flex-start;
 
-  gap: 0px;
-
-  background: #ffffff;
-
-  padding: 0px;
-
-  
-
-}
-
-.label {
-  width: 45%;
-  height:160px;
-  padding: 20px;
-
-  background-color: #FFFFFF;
-
-  
-
-}
-
-.color-strip {
-  width: 5px;
-  height: 200px;
-}
-
-.previewImage {
-  width: 55%;
-  height:160px;
-  padding:0;
-
-  background: #FFFFFF;
-}
-
-.placeholderImage{
-    display: flex;
-    flex-direction: column;
-  
-    align-items: center;
-    justify-content: center;
-
-    width: 100%;
-}
-
-  .container1 {
-
-    
-    width: 60%;
-    padding-left:5%;
-    padding-right:5%;
-
-    border-left: 2px solid  #e9e9e9; 
-    border-right: 2px solid  #e9e9e9;
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-
-    justify-content: flex-start;
-    align-items: flex-start;
-
-    gap: 0px;
-
-    background: #ffffff;
-    
-  }
-
-  .container2 {
-    width: 60%;
-    padding-left:5%;
-    padding-right:5%;
-
-    border-left: 2px solid  #e9e9e9; 
-    border-right: 2px solid  #e9e9e9;
-   
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-
-    justify-content: flex-start;
-    align-items: flex-start;
-
-    gap: 0px;
-
-    background: #F8F8F8;
-
-    
-  }
-
-  .containerProject h1{
-    padding: 0px;
-    margin: 0px;
-    
-    text-align: left;
-   
-    color: #0f0f0f;
-
-    font-family: "Cutive Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
-
-  }
 
   .palette {
     display: flex;
