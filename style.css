@@ -37,6 +37,8 @@ body{
   width: 60%;
   padding-left:5%;
   padding-right:5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 
   border-left: 2px solid  #e9e9e9; 
   border-right: 2px solid  #e9e9e9;
@@ -61,6 +63,9 @@ body{
   width: 60%;
   padding-left:5%;
   padding-right:5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
 
   border-left: 2px solid  #e9e9e9; 
   border-right: 2px solid  #e9e9e9;
@@ -94,6 +99,8 @@ body{
   width: 60%;
   padding-left:5%;
   padding-right:5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 
   border-left: 2px solid  #e9e9e9; 
   border-right: 2px solid  #e9e9e9;
@@ -114,6 +121,12 @@ body{
 
 .ul1{
   list-style-type: none;
+  
+}
+
+li {
+  margin-top: 10px;
+  
 }
 
 a {
@@ -208,10 +221,13 @@ a {
 
 
 .navbar {
-    width:100%;
+    width:70%;
 
     overflow: hidden;
     background-color: #333; 
+
+    border-left: 2px solid  #333; 
+  border-right: 2px solid  #333;
 
     font-family: "Cutive Mono", monospace;
     font-weight: 400;

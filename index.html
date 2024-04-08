@@ -9,10 +9,18 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+
+    <script src="p5.js"></script>
 
 <body>
+
+    <script src="grid.js"></script>
+
+    <div id = "canvasContainer" style="width: 100%;"></div>
 
     <div class = "banner">
         
@@ -24,9 +32,9 @@
 
             <a href="index.html" class="activePage" >Home</a>
             <a href="graphic.html" class="inactivePage">Graphics</a>
-            <a href="games.html" class="inactivePage">Games</a>
+            <!-- <a href="games.html" class="inactivePage">Games</a> -->
             <a href="objects.html" class="inactivePage">Objects</a>
-            <a href="about.html" class="inactivePage right">About</a>
+            <a href="about.html" class="inactivePage right">?</a>
     
     </div>
 
@@ -36,40 +44,58 @@
 
         <p>
             Welcome to my home. I'm a digital artist and fabricator from Montreal, Canada.<br>
+            
             On this site, I publish documentation of my favourite personal projects.<br>
             I hope you enjoy! <br>
         </p>
+
+        <ul class = "ul1" style="float: right;"> <li><a style = "color:#7e7e7e;" href="">Statement & Bio</a></li> </ul>
 
     </div>
 
     <div class="c2">
 
-        <h2> >> Tools </h2>
-        <img src = "Selected Works/Logos/blender.png" alt="Blender Logo" style="width: 20%;">
-        <img src = "Selected Works/Logos/adobe.png" alt="Adobe Logo" style="width: 20%;">
-        <img src = "Selected Works/Logos/max.png" alt="Max Msp Logo" style="width: 20%;">
-        <img src = "Selected Works/Logos/rhino.png" alt="Rhino Logo" style="width: 20%;">
+        <h2> >> Toolkit </h2>
+        <img src = "Selected Works/Logos/blender.png" alt="Blender Logo" style="width: auto; max-height: 4em; padding-left: 5%;">
+        <img src = "Selected Works/Logos/adobe.png" alt="Adobe Logo" style="width: auto; max-height: 4em; padding-left: 5%;">
+        <img src = "Selected Works/Logos/max.png" alt="Max Msp Logo" style="width: auto; max-height: 4em; padding-left: 5%;">
+        <img src = "Selected Works/Logos/rhino.png" alt="Rhino Logo" style="width: auto; max-height: 4em; padding-left: 5%;">
 
     </div>
 
     <div class = "project"> 
-        <div>
+
+        <div style="width: 50%;">
             <h3> DigiLute </h3><span></span>
-            <p> A custom designed, 3D printed MIDI Instrument. </p>
-            <p> 3D Printed with PETG, 2024, Montreal. </p>
+            <p> A custom designed, 3D printed MIDI Instrument. <br>
+                Arduino, Sensors & PETG Plastic.<br>
+                 2024, Montreal.
+            </p>
             <ul class = "ul1"> <li><a href="">Read about it</a></li> <li><a href="">Download Project Files</a></li> </ul>
         </div>
-        <!-- <img src="Selected Works/DigiLuteRender.png" alt="" style="width: 50%; height: 3em; object-fit: cover;"> -->
+
+        <div style="width: 50%;">
+            <img src="Selected Works/DigiLuteRender3.png" alt="" style="width:100%;">
+        </div>
+        
     </div>
 
     <div class = "project"> 
-        <div>
+
+        <div style="width: 50%;">
             <h3> Breakbot </h3><span></span>
-            <p> A custom designed, 3D printed MIDI Instrument. </p>
-            <p> 3D Printed with PETG, 2024, Montreal. </p>
+
+            <p> 3D printed robotic drumming sculpture. <br>
+                Arduino, Stepper Motors & PETG Plastic, <br>
+                2023, Montreal.
+            </p>
             <ul class = "ul1"> <li><a href="">Read about it</a></li> <li><a href="">Download Project Files</a></li> </ul>
         </div>
-        <!-- <img src="Selected Works/DigiLuteRender.png" alt="" style="width: 50%; height: 3em; object-fit: cover;"> -->
+
+        <div style="width: 50%;">
+            <img src="Selected Works/DigiLuteRender2.png" alt="" style="width:100%;">
+        </div>
+
     </div>
 
     
