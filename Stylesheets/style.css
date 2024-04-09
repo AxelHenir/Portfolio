@@ -49,13 +49,17 @@ body{
 
   /* TEXT */
 
-  font-family: "Noto Sans Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
+  font: 1em "Noto Sans Mono", monospace;
   text-align: left; 
-   
+  
+  
 }
+
+/* @media (min-width: 900px){
+  .c1 {
+    font: 1em "Noto Sans Mono", monospace;
+  }
+} */
 
 .c2{
 
