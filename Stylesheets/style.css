@@ -107,6 +107,7 @@ body{
 
   /* COLOR */
   background: #ffffff;
+  transition-duration: 500ms;
   color: #000000; 
 
   /* TEXT */
@@ -117,6 +118,11 @@ body{
   font-size: 16px;
   text-align: left; 
    
+}
+
+.project:hover{
+  background: #F8F8F8;
+  transition-duration: 500ms;
 }
 
 .ul1{

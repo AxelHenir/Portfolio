@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Alex Henri - Portfolio Home</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alex Henri - Portfolio Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="Stylesheets/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -14,11 +15,14 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
 
-    <script src="p5.js"></script>
+    <script src="Libraries/p5.js"></script>
+
+    <script src="grid.js"></script>
+
 
 <body>
 
-    <script src="grid.js"></script>
+    
 
     <div id = "canvasContainer" style="width: 100%;"></div>
 
@@ -31,37 +35,26 @@
     <div class="navbar">
 
             <a href="index.html" class="activePage" >Home</a>
-            <a href="graphic.html" class="inactivePage">Graphics</a>
-            <!-- <a href="games.html" class="inactivePage">Games</a> -->
-            <a href="objects.html" class="inactivePage">Objects</a>
-            <a href="about.html" class="inactivePage right">?</a>
+            <a href="Pages/graphic.html" class="inactivePage">Graphics</a>
+            <a href="Pages/objects.html" class="inactivePage">Objects</a>
+            <a href="Pages/about.html" class="inactivePage right">?</a>
     
     </div>
 
-    <div class = "c1">
+    <div class = "c1" style="border-bottom: 1px solid #e9e9e9;">
 
         <h2> >> Hi, I'm Alex!</h2>
 
         <p>
-            Welcome to my home. I'm a digital artist and fabricator from Montreal, Canada.<br>
-            
-            On this site, I publish documentation of my favourite personal projects.<br>
-            I hope you enjoy! <br>
+            Welcome to my home. I make digital art and strange objects, sometimes. <br>
+            Check out my recent projects below!<br>
         </p>
 
         <ul class = "ul1" style="float: right;"> <li><a style = "color:#7e7e7e;" href="">Statement & Bio</a></li> </ul>
 
     </div>
 
-    <div class="c2">
-
-        <h2> >> Toolkit </h2>
-        <img src = "Selected Works/Logos/blender.png" alt="Blender Logo" style="width: auto; max-height: 4em; padding-left: 5%;">
-        <img src = "Selected Works/Logos/adobe.png" alt="Adobe Logo" style="width: auto; max-height: 4em; padding-left: 5%;">
-        <img src = "Selected Works/Logos/max.png" alt="Max Msp Logo" style="width: auto; max-height: 4em; padding-left: 5%;">
-        <img src = "Selected Works/Logos/rhino.png" alt="Rhino Logo" style="width: auto; max-height: 4em; padding-left: 5%;">
-
-    </div>
+    
 
     <div class = "project"> 
 
@@ -75,7 +68,7 @@
         </div>
 
         <div style="width: 50%;">
-            <img src="Selected Works/DigiLuteRender3.png" alt="" style="width:100%;">
+            <img src="Projects/Graphics/Digilute .png" alt="The Digilute" style="width:100%;">
         </div>
         
     </div>
@@ -98,10 +91,53 @@
 
     </div>
 
+    <div class = "c1" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+
+        <div style="width: 50%;">
+            <h2> >> Graphics</h2>
+
+            <ul class = "ul1"> 
+                <li><a href="">Fake Album Covers</a></li> 
+                <li><a href="">Generative</a></li> 
+                <li><a href="">Audio Visualisation</a></li> 
+            </ul>
+        </div>
+
+        <div style="width: 50%;">
+            <h2> >> Objects</h2>
+
+            <ul class = "ul1"> 
+                <li><a href="">Wire Tree</a></li> 
+                <li><a href="">Breakbot</a></li> 
+                <li><a href="">DigiLute</a></li> 
+            </ul>
+        </div>
+
+
+
+        
+
+    </div>
+
+    <div class="c1">
+
+        <h2> >> Toolkit </h2>
+
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-evenly;"> 
+            <a href = "https://www.blender.org"> <img src = "Projects/Graphics/Logos/blender.png" alt="Blender Logo" style="width: auto; max-height: 4em; padding-left: 5%;" > </a>
+            <a href = "https://www.adobe.com/ca/creativecloud.html"> <img src = "Projects/Graphics/Logos/adobe.png" alt="Adobe Logo" style="width: auto; max-height: 4em; padding-left: 5%;"> </a>
+            <a href = "https://cycling74.com"> <img src = "Projects/Graphics/Logos/max.png" alt="Max Msp Logo" style="width: auto; max-height: 4em; padding-left: 5%;"> </a>
+            <a href = "https://www.rhino3d.com"> <img src = "Projects/Graphics/Logos/rhino.png" alt="Rhino Logo" style="width: auto; max-height: 4em; padding-left: 5%;"> </a>
+            <a href = "https://unity.com/products/unity-engine?_rsc=4qoeb"> <img src = "Projects/Graphics/Logos/unity.png" alt="Unity Logo" style="width: auto; max-height: 4em; padding-left: 5%;"> </a>
+
+        </div>
+
+    </div>
+
     
     <div class = "c2">
 
-        <h2>Contact</h2>
+        <h2>>> Contact</h2>
         <p>Email: AlexHenriMail@gmail.com</p>
         <p>Discord - axelhenir</p>
 
